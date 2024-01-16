@@ -11,3 +11,147 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* a{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  padding: 2%;
+} */
+.heading2{
+  display: flex;
+  justify-content: center; 
+  height: 4.2vw;
+}
+.logo{
+  width: 5vw;
+  
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+}
+.zeptoLogo{
+  width: 5vw;
+ 
+
+}
+.mainContainer{
+  background: #F5F5F7;
+  text-align: center;
+}
+.buildZepto{
+  width: 5rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  /* margin: 2% 0 0; */
+}
+.info1{
+  color: #000;
+  text-shadow: 0px 4px 4.8px rgba(60, 60, 60, 0.25);
+  font-family: Inter;
+  font-size: 1.6875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 6.9375rem; /* 411.111% */
+  letter-spacing: -0.10125rem;
+}
+.chatbot{
+  background: linear-gradient(180deg, #E082E8 39.04%, #8C2EFF 60.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 1.6875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 6.9375rem;
+  letter-spacing: -0.10125rem;
+}
+.header{
+
+    background: #27272A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: inter;
+ 
+
+}
+.header>p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1vw;
+  font-weight: 500;
+  line-height: normal;
+}
+.maincontent{
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 1.5rem */
+}
+.images1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Accessbot{
+  width: 20vh;
+  position: absolute;
+  right: 6%;
+  bottom: 33%;
+}
+.curvearrowlast{
+  position: absolute;
+  width: 12vh;
+  right: 5%;
+  bottom: 16%;
+}
+.mainheader{
+  border-radius: 1.1875rem 1.1875rem 0rem 0rem;
+  background: linear-gradient(273deg, #E082E8 4.05%, #8C2EFF 98.85%);
+  box-shadow: 0px 1px 27.9px -2px rgba(0, 0, 0, 0.25);
+
+}
+.curveline{
+  fill: linear-gradient(92deg, #8F31FF 16.51%, #DD7FEA 83.82%);
+  filter: drop-shadow(0px -7px 4px rgba(0, 0, 0, 0.25));
+}
+.mainheader>p{
+  background: linear-gradient(180deg, #FFF 99.98%, #8E8796 99.99%, #8E8796 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.78125rem;
+  letter-spacing: -0.09rem;
+}
+.curveline>p{
+  background: linear-gradient(180deg, #FFF 99.98%, #8E8796 99.99%, #8E8796 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.625rem; /* 462.5% */
+  letter-spacing: -0.05rem;
+}
